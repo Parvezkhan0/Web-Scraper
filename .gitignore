@@ -1,0 +1,26 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Python virtual environment folder
+venv/
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore downloaded ChromeDriver binary (if using webdriver_manager)
+chromedriver_autoinstaller.log
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any other temporary or generated files
+__pycache__/
+*.pyo
+*.pyd
+*.bak
+*.swp
+*.~lock.*
