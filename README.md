@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # **ShutterScrape**
 
 ShutterScrape is a web scrapper for bulk downloading images and videos from Shutterstock with speed. ⚡
@@ -49,4 +48,3 @@ Stability fixes.
 =======
 # Web-Scraper
  Build a web scraper using Python's requests and BeautifulSoup libraries. The scraper can extract data from a website of your choice, such as headlines, product information, or weather data, and save it to a local file or database. This project will give you hands-on experience with web requests, HTML parsing, and data extraction.
->>>>>>> 86f6b486ec0baebb0b829299583218535990152b
