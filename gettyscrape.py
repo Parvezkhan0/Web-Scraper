@@ -8,7 +8,7 @@ import tkinter as tk
 from tkinter import filedialog
 import time
 
-def videoscrape():
+def videoscrape():    
     try:
         chromeOptions = webdriver.ChromeOptions()
         prefs = {"download.default_directory": scrape_directory}
