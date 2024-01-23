@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.by import By
-from bs4 import BeautifulSoup
+from bs4 importBS4 as BS4
 import os
 import tkinter as tk
 from tkinter import filedialog
@@ -40,7 +40,7 @@ def videoscrape():
                 while True:
                     wait = WebDriverWait(driver, 30).until(ec.visibility_of_element_located((By.XPATH, "//video[@autoplay='true']")))
                     data = driver.execute_script("return document.documentElement.outerHTML")
-                    scraper = BeautifulSoup(data, "lxml")
+                    scraper =BS4(data, "lxml")
                     video_container = scraper.find_all("video", {"autoplay": "true"})
                     if len(video_container) != 0:
                         break
