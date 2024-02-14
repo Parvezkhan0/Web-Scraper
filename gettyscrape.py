@@ -37,6 +37,7 @@ def videoscrape():
                 link = section.find_element_by_xpath(".//a[@class='search-result-asset-link']")
                 video_url = link.get_attribute("href")
                 driver.get(video_url)
+                
                 while True:
                     wait = WebDriverWait(driver, 30).until(ec.visibility_of_element_located((By.XPATH, "//video[@autoplay='true']")))
                     data = driver.execute_script("return document.documentElement.outerHTML")
@@ -48,6 +49,7 @@ def videoscrape():
                     driver.get(video_url)
                 video_src = video_container[0].get("src")
                 name = video_src.rsplit("/", 1)[-1]
+                
                 try:
                     driver.get(video_src + "?p=1")
                     print("Scraped " + name)
