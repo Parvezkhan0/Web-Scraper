@@ -7,6 +7,7 @@ It implements Selenium for browser automation and Beautiful Soup for parsing.
 
 Configure shutterscrape.py to your Python version.
 
+
 Install requirements from Terminal:
 
 pip install beautifulsoup4
