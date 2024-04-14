@@ -1,4 +1,4 @@
-# **ShutterScrape**
+# **ShutterScrape**  
 
 ShutterScrape is a web scrapper for bulk downloading images and videos from Shutterstock with speed. ⚡
 It implements Selenium for browser automation and Beautiful Soup for parsing.
